@@ -16,11 +16,11 @@ export const SidebarContainer = styled.aside`
   left: 0;
   transition: 0.3s ease-in-out;
   // Change the visibilty
-  //opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   // Dropdown effect of mobile nav
 
-  //top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
-  top: 0;
+  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+  //top: 0;
 `;
 
 export const CloseIcon = styled(FaTimes)`
