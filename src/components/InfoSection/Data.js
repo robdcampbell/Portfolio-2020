@@ -21,12 +21,13 @@ export const homeObjOne = {
   // Image **** HAVING ISSUES WITH THE PATH
   img: require("../../images/svg-1.svg"),
   alt: "Project 1",
+  primary: true,
   dark: true,
   darkText: false,
 };
 
 export const homeObjTwo = {
-  id: "nextProject",
+  id: "discover",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -38,12 +39,13 @@ export const homeObjTwo = {
   imgStart: true,
   // img: require("../../images/svg-1.svg"),
   alt: "Project 1",
+  primary: false,
   dark: true,
   darkText: true,
 };
 
 export const homeObjThree = {
-  id: "about",
+  id: "services",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -55,6 +57,7 @@ export const homeObjThree = {
   imgStart: false,
   img: require("../../images/svg-1.svg"),
   alt: "Project 1",
+  primary: true,
   dark: true,
   darkText: false,
 };
