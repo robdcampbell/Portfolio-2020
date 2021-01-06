@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
@@ -21,18 +22,12 @@ const Footer = () => {
             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>About Me</FooterLinkTitle>
-                {/* <FooterLink to="./signin"> */}
                 <FooterExternalLink
                   href="https://www.google.com"
                   target="_blank"
                 >
                   Google
                 </FooterExternalLink>
-
-                {/* <a href="https://www.google.com" target="_blank">
-                  How it works</a> */}
-
-                {/* </FooterLink> */}
                 <FooterLink to="./signin">Testimonials</FooterLink>
                 <FooterLink to="./signin">Careers</FooterLink>
                 <FooterLink to="./signin">Investors</FooterLink>
@@ -67,6 +62,27 @@ const Footer = () => {
               </FooterLinkItems>
             </FooterLinksWrapper>
           </FooterLinksContainer>
+          <SocialMedia>
+            <SocaialMediaWrap>
+              <SocialLogo to="/">Back to the top</SocialLogo>
+              <WebsiteRights>
+                rob campbell. {new Date().getFullYear()}
+              </WebsiteRights>
+              <SocialIcons>
+                <SocialIconLink href="/" target="_blank" aria-label="Github">
+                  <FaFacebook />
+                </SocialIconLink>
+
+                <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                  <FaInstagram />
+                </SocialIconLink>
+
+                <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+                  <FaFacebook />
+                </SocialIconLink>
+              </SocialIcons>
+            </SocaialMediaWrap>
+          </SocialMedia>
         </FooterWrap>
       </FooterContainer>
     </>
