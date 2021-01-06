@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
@@ -9,6 +9,12 @@ import {
   FooterLinkTitle,
   FooterLink,
   FooterExternalLink,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  WebsiteRights,
+  SocialIcons,
+  SocialIconLink,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -63,13 +69,13 @@ const Footer = () => {
             </FooterLinksWrapper>
           </FooterLinksContainer>
           <SocialMedia>
-            <SocaialMediaWrap>
+            <SocialMediaWrap>
               <SocialLogo to="/">Back to the top</SocialLogo>
               <WebsiteRights>
                 rob campbell. {new Date().getFullYear()}
               </WebsiteRights>
               <SocialIcons>
-                <SocialIconLink href="/" target="_blank" aria-label="Github">
+                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                   <FaFacebook />
                 </SocialIconLink>
 
@@ -78,10 +84,14 @@ const Footer = () => {
                 </SocialIconLink>
 
                 <SocialIconLink href="/" target="_blank" aria-label="Youtube">
-                  <FaFacebook />
+                  <FaYoutube />
+                </SocialIconLink>
+
+                <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+                  <FaLinkedin />
                 </SocialIconLink>
               </SocialIcons>
-            </SocaialMediaWrap>
+            </SocialMediaWrap>
           </SocialMedia>
         </FooterWrap>
       </FooterContainer>
