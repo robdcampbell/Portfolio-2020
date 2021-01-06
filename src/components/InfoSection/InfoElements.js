@@ -13,7 +13,7 @@ export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
   // Adjusts the height of the info/project sections
-  height: 860px;
+  height: 750px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
