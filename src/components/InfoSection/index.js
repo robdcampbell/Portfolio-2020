@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElement";
+import { Button } from "../ButtonElements";
 // HAVE TO IMPORT IMAGES THIS WAY
 import Image1 from "../../images/svg-1.svg";
 import {
@@ -29,6 +29,9 @@ const InfoSection = ({
   buttonLabel,
   img,
   alt,
+  primary,
+  dark,
+  dark2,
 }) => {
   return (
     <>
@@ -41,7 +44,18 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button to="home">{buttonLabel}</Button>
+                  <Button
+                    to="home"
+                    smooth={true}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                    primary={primary ? 0 : 1}
+                    dark={dark ? 0 : 1}
+                    dark2={dark2 ? 0 : 1}
+                  >
+                    {buttonLabel}
+                  </Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

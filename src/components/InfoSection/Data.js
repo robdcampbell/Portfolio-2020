@@ -16,7 +16,7 @@ export const homeObjOne = {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
   // button
   buttonLabel: "View Project",
-  //imgArrangement issues
+  //imgStart swaps the image and text locations
   imgStart: false,
   // Image **** HAVING ISSUES WITH THE PATH
   img: require("../../images/svg-1.svg"),
@@ -35,8 +35,25 @@ export const homeObjTwo = {
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
   buttonLabel: "View Project",
-  imgStart: false,
+  imgStart: true,
   // img: require("../../images/svg-1.svg"),
+  alt: "Project 1",
+  dark: true,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Web Development",
+  headline: "Creative Technologist",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
+  buttonLabel: "View Project",
+  imgStart: false,
+  img: require("../../images/svg-1.svg"),
   alt: "Project 1",
   dark: true,
   darkText: false,
