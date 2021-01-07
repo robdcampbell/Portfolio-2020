@@ -14,7 +14,7 @@ import {
   NavBtnLink,
 } from "./NavbarElements";
 
-const Navbar = ({ toggle, isOpen }) => {
+const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -50,9 +50,21 @@ const Navbar = ({ toggle, isOpen }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="about"
+                  to="project-1"
                   smooth={true}
                   duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Projects
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="about"
+                  smooth={true}
+                  duration={1000}
                   spy={true}
                   exact="true"
                   offset={-80}
@@ -61,18 +73,33 @@ const Navbar = ({ toggle, isOpen }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="discover">Discover</NavLinks>
+                <NavLinks
+                  to="footer"
+                  smooth={true}
+                  duration={1000}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Contact
+                </NavLinks>
               </NavItem>
-              <NavItem>
-                <NavLinks to="services">Services</NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks to="signup">Sign up</NavLinks>
-              </NavItem>
+              {/* <NavItem>
+                <NavLinks
+                  to="signup"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  Sign up
+                </NavLinks>
+              </NavItem> */}
             </NavMenu>
-            <NavBtn>
+            {/* <NavBtn>
               <NavBtnLink to="/signin">Sign In</NavBtnLink>
-            </NavBtn>
+            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

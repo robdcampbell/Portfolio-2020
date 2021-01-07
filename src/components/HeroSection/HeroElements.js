@@ -22,7 +22,7 @@ export const HeroContainer = styled.div`
     background: linear-gradient(
         180deg,
         rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.6) 100%
+        rgba(0, 0, 0, 10) 100%
       ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%), transparent 100%;
     z-index: 2;
@@ -59,7 +59,7 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 48px;
+  font-size: 3.5rem;
   text-align: center;
 
   @media screen and (max-width: 768px) {

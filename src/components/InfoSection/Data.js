@@ -1,6 +1,24 @@
 export const homeObjOne = {
+  id: "project-2",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Web Development",
+  headline: "Creative Technologist",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
+  buttonLabel: "View Project",
+  imgStart: true,
+  // img: require("../../images/svg-1.svg"),
+  alt: "Project 1",
+  primary: false,
+  dark: true,
+  darkText: true,
+};
+
+export const homeObjTwo = {
   //page
-  id: "about",
+  id: "project-1",
   // Background
   lightBg: false,
   //Text Color
@@ -26,8 +44,8 @@ export const homeObjOne = {
   darkText: false,
 };
 
-export const homeObjTwo = {
-  id: "discover",
+export const homeObjThree = {
+  id: "project-2",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -44,8 +62,8 @@ export const homeObjTwo = {
   darkText: true,
 };
 
-export const homeObjThree = {
-  id: "services",
+export const homeObjFour = {
+  id: "project-3",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,

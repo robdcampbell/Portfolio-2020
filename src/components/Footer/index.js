@@ -1,5 +1,7 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
+
 import {
   FooterContainer,
   FooterWrap,
@@ -18,9 +20,13 @@ import {
 } from "./FooterElements";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <>
-      <FooterContainer>
+      <FooterContainer id="footer">
         <FooterWrap>
           {/* this creates the links container */}
           <FooterLinksContainer>
@@ -70,7 +76,17 @@ const Footer = () => {
           </FooterLinksContainer>
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo to="/">Back to the top</SocialLogo>
+              <SocialLogo
+                to="/"
+                onClick={toggleHome}
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                (Back to the top)
+              </SocialLogo>
               <WebsiteRights>
                 rob campbell. {new Date().getFullYear()}
               </WebsiteRights>
