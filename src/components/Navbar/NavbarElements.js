@@ -6,7 +6,7 @@ import { Link as LinkS } from "react-scroll";
 // followed up with backTicks, and the CSS properties added to that tag
 export const Nav = styled.nav`
   //background: #000;
-  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
+  background: ${({ scrollNav }) => (scrollNav ? "#000" : "#0c0c0c")};
   height: 80px;
   margin-top: -80px;
   display: flex;
