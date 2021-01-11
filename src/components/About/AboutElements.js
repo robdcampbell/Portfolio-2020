@@ -79,3 +79,31 @@ export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;
+/////////////////
+///  IMAGE   ///
+///////////////
+
+export const ImgWrap = styled.div`
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  //border: 1px solid #c0c0c0;
+  max-width: 555px;
+  padding: 2rem 1rem;
+  @media screen and (max-width: 760px) {
+    width: 90%;
+    padding: 0;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0rem;
+  }
+`;
+export const Img = styled.img`
+  width: 100%;
+  margin: 0;
+  padding-right: 0;
+  border-radius: 0.5rem;
+`;

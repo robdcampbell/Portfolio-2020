@@ -10,6 +10,8 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesP,
+  Img,
+  ImgWrap,
 } from "./AboutElements";
 
 const Services = () => {
@@ -17,6 +19,13 @@ const Services = () => {
     <ServicesContainer id="about">
       <ServicesH1>( A little about me. )</ServicesH1>
       <ServicesWrapper>
+        <ImgWrap>
+          <Img
+            src="../../images/me_woods.png"
+            alt="Rob eating a bagel in the woods"
+          />
+        </ImgWrap>
+
         {/* <ServicesCard>
           <ServicesIcon src={Icon1} />
           <ServicesH2>Reduce Expenses</ServicesH2>
