@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../ButtonElements";
+import { ButtonE } from "../ButtonExternalElements";
 // HAVE TO IMPORT IMAGES THIS WAY
 import Image1 from "../../images/svg-1.svg";
 import Landing from "../../images/portfolio_landing.png";
@@ -34,6 +35,8 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
+  codeUrl,
+  projectUrl,
 }) => {
   return (
     <>
@@ -46,7 +49,23 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
+                  {buttonLabel && (
+                    <ButtonE
+                      to="home"
+                      smooth={true}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      primary={primary ? 1 : 0}
+                      dark={dark ? 0 : 1}
+                      dark2={dark2 ? 0 : 1}
+                      href={projectUrl}
+                      target="_blank"
+                    >
+                      {buttonLabel}
+                    </ButtonE>
+                  )}
+                  <ButtonE
                     to="home"
                     smooth={true}
                     spy={true}
@@ -55,21 +74,11 @@ const InfoSection = ({
                     primary={primary ? 1 : 0}
                     dark={dark ? 0 : 1}
                     dark2={dark2 ? 0 : 1}
-                  >
-                    {buttonLabel}
-                  </Button>
-                  <Button
-                    to="home"
-                    smooth={true}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 0 : 1}
-                    dark2={dark2 ? 0 : 1}
+                    href={codeUrl}
+                    target="_blank"
                   >
                     {buttonLabel2}
-                  </Button>
+                  </ButtonE>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

@@ -17,6 +17,8 @@ export const homeObjOne = {
   primary: false,
   dark: true,
   darkText: true,
+  codeUrl: "https://github.com/robdcampbell/reactPortfolio",
+  projectUrl: "",
 };
 
 export const homeObjTwo = {
@@ -36,7 +38,7 @@ export const homeObjTwo = {
   description:
     "Using React and React Styled Componenets, I assembled this reponsive website to display way I've been tinkering at.",
   // button
-  buttonLabel: "View Project",
+  //buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   //imgStart swaps the image and text locations
   imgStart: false,
@@ -46,6 +48,8 @@ export const homeObjTwo = {
   primary: true,
   dark: true,
   darkText: false,
+  codeUrl: "https://github.com/robdcampbell/reactPortfolio",
+  projectUrl: "",
 };
 
 export const homeObjThree = {
@@ -65,6 +69,8 @@ export const homeObjThree = {
   primary: false,
   dark: true,
   darkText: true,
+  codeUrl: "https://github.com/robdcampbell/reactPortfolio",
+  projectUrl: "",
 };
 
 export const homeObjFour = {
@@ -84,4 +90,6 @@ export const homeObjFour = {
   primary: true,
   dark: true,
   darkText: false,
+  codeUrl: "https://github.com/robdcampbell/reactPortfolio",
+  projectUrl: "",
 };
