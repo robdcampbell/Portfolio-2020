@@ -100,7 +100,7 @@ export const ImgWrap = styled.div`
   align-items: center;
   margin: 0 auto;
   border-radius: 0.5rem;
-  border: 1px solid #c0c0c0;
+  //border: 1px solid #c0c0c0;
   max-width: 555px;
   padding: 2rem 1rem;
   @media screen and (max-width: 760px) {

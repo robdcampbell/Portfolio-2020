@@ -15,9 +15,9 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id="about">
-      <ServicesH1>A little about me.</ServicesH1>
+      <ServicesH1>( A little about me. )</ServicesH1>
       <ServicesWrapper>
-        <ServicesCard>
+        {/* <ServicesCard>
           <ServicesIcon src={Icon1} />
           <ServicesH2>Reduce Expenses</ServicesH2>
           <ServicesP>
@@ -35,7 +35,7 @@ const Services = () => {
           <ServicesP>
             Came from the woods to make a home in the city ok ok
           </ServicesP>
-        </ServicesCard>
+        </ServicesCard> */}
       </ServicesWrapper>
     </ServicesContainer>
   );

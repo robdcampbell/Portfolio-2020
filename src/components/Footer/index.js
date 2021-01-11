@@ -1,5 +1,12 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaLinkedin,
+  FaGithub,
+  FaCodepen,
+} from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 
 import {
@@ -28,16 +35,69 @@ const Footer = () => {
     <>
       <FooterContainer id="contact">
         <FooterWrap>
-          <FooterLinksContainer>
+          <SocialMedia>
+            <SocialMediaWrap>
+              <SocialLogo
+                to="/"
+                onClick={toggleHome}
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                (Back to the top)
+              </SocialLogo>
+
+              <WebsiteRights>
+                rob campbell. {new Date().getFullYear()}
+              </WebsiteRights>
+              <SocialIcons>
+                <SocialIconLink
+                  href="https://github.com/robdcampbell"
+                  target="_blank"
+                  aria-label="Github"
+                >
+                  <FaGithub />
+                </SocialIconLink>
+
+                <SocialIconLink
+                  href="https://www.linkedin.com/in/rob-campbell-a6354a75/"
+                  target="_blank"
+                  aria-label="Linkedin"
+                >
+                  <FaLinkedin />
+                </SocialIconLink>
+                <SocialIconLink
+                  href="https://codepen.io/robdcampbell"
+                  target="_blank"
+                  aria-label="Codepen"
+                >
+                  <FaCodepen />
+                </SocialIconLink>
+              </SocialIcons>
+            </SocialMediaWrap>
+          </SocialMedia>
+        </FooterWrap>
+      </FooterContainer>
+    </>
+  );
+};
+
+export default Footer;
+
+/*
+<FooterLinksContainer>
             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>Github</FooterLinkTitle>
-                <FooterExternalLink
-                  href="https://www.google.com"
+                <SocialIconLink
+                  href="https://github.com/robdcampbell"
                   target="_blank"
+                  aria-label="Github"
                 >
-                  Google
-                </FooterExternalLink>
+                  <FaGithub />
+                </SocialIconLink>
               </FooterLinkItems>
 
               <FooterLinkItems>
@@ -60,139 +120,4 @@ const Footer = () => {
               </FooterLinkItems>
             </FooterLinksWrapper>
           </FooterLinksContainer>
-          <SocialMedia>
-            <SocialMediaWrap>
-              <SocialLogo
-                to="/"
-                onClick={toggleHome}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                (Back to the top)
-              </SocialLogo>
-
-              <WebsiteRights>
-                rob campbell. {new Date().getFullYear()}
-              </WebsiteRights>
-              <SocialIcons>
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                  <FaFacebook />
-                </SocialIconLink>
-
-                <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                  <FaInstagram />
-                </SocialIconLink>
-
-                <SocialIconLink href="/" target="_blank" aria-label="Youtube">
-                  <FaYoutube />
-                </SocialIconLink>
-
-                <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
-                  <FaLinkedin />
-                </SocialIconLink>
-              </SocialIcons>
-            </SocialMediaWrap>
-          </SocialMedia>
-        </FooterWrap>
-      </FooterContainer>
-    </>
-  );
-};
-
-export default Footer;
-/*
-    
-      <FooterContainer id="footer">
-        <FooterWrap>
-          
-          <FooterLinksContainer>
-          
-            <FooterLinksWrapper>
-              <FooterLinkItems>
-                <FooterLinkTitle>About Me</FooterLinkTitle>
-                <FooterExternalLink
-                  href="https://www.google.com"
-                  target="_blank"
-                >
-                  Google
-                </FooterExternalLink>
-                <FooterLink to="./signin">Testimonials</FooterLink>
-                <FooterLink to="./signin">Careers</FooterLink>
-                <FooterLink to="./signin">Investors</FooterLink>
-                <FooterLink to="./signin">Terms of Service</FooterLink>
-              </FooterLinkItems>
-              <FooterLinkItems>
-                <FooterLinkTitle>About Me</FooterLinkTitle>
-                <FooterLink to="./signin">How it works</FooterLink>
-                <FooterLink to="./signin">Testimonials</FooterLink>
-                <FooterLink to="./signin">Careers</FooterLink>
-                <FooterLink to="./signin">Investors</FooterLink>
-                <FooterLink to="./signin">Terms of Service</FooterLink>
-              </FooterLinkItems>
-            </FooterLinksWrapper>
-            
-            <FooterLinksWrapper>
-              <FooterLinkItems>
-                <FooterLinkTitle>About Me</FooterLinkTitle>
-                <FooterLink to="./signin">How it works</FooterLink>
-                <FooterLink to="./signin">Testimonials</FooterLink>
-                <FooterLink to="./signin">Careers</FooterLink>
-                <FooterLink to="./signin">Investors</FooterLink>
-                <FooterLink to="./signin">Terms of Service</FooterLink>
-              </FooterLinkItems>
-              <FooterLinkItems>
-                <FooterLinkTitle>About Me</FooterLinkTitle>
-                <FooterLink to="./signin">How it works</FooterLink>
-                <FooterLink to="./signin">Testimonials</FooterLink>
-                <FooterLink to="./signin">Careers</FooterLink>
-                <FooterLink to="./signin">Investors</FooterLink>
-                <FooterLink to="./signin">Terms of Service</FooterLink>
-              </FooterLinkItems>
-            </FooterLinksWrapper>
-          </FooterLinksContainer>
-          <SocialMedia>
-            <SocialMediaWrap>
-              <SocialLogo
-                to="/"
-                onClick={toggleHome}
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                (Back to the top)
-              </SocialLogo>
-              <WebsiteRights>
-                rob campbell. {new Date().getFullYear()}
-              </WebsiteRights>
-              <SocialIcons>
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                  <FaFacebook />
-                </SocialIconLink>
-
-                <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                  <FaInstagram />
-                </SocialIconLink>
-
-                <SocialIconLink href="/" target="_blank" aria-label="Youtube">
-                  <FaYoutube />
-                </SocialIconLink>
-
-                <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
-                  <FaLinkedin />
-                </SocialIconLink>
-              </SocialIcons>
-            </SocialMediaWrap>
-          </SocialMedia>
-        </FooterWrap>
-      </FooterContainer>
-    </>
-  );
-};
-
-export default Footer;
- */
+*/

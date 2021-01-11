@@ -10,11 +10,11 @@ export const ServicesContainer = styled.div`
   background-color: #0c0c0c;
   border-bottom: #fff solid 1px;
 
-  @media screen and (max-width: 768px) {
-    height: 1100px;
+  @media screen and (max-width: 900px) {
+    height: 1500px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1500px;
   }
 `;
 // IF YOU WANT LESS COLUMNS, CHANGE HERE (Grid-template-columns)
@@ -29,9 +29,9 @@ export const ServicesWrapper = styled.div`
 
   /* @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
   } */
-
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
   }

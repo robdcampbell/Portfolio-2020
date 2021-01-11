@@ -74,7 +74,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="footer"
+                  to="contact"
                   smooth={true}
                   duration={1000}
                   spy={true}
