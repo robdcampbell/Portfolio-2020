@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#3d3d3d")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -89,14 +89,32 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
+  @media screen and (max-width: 760px) {
+    display: block;
+  } ;
 `;
 
 export const ImgWrap = styled.div`
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  border: 1px solid #c0c0c0;
   max-width: 555px;
-  height: 100%;
+  padding: 2rem 1rem;
+  @media screen and (max-width: 760px) {
+    width: 90%;
+    padding: 0;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0rem;
+  }
 `;
 export const Img = styled.img`
   width: 100%;
-  margin: 0 0 10px 0;
+  margin: 0;
   padding-right: 0;
+  border-radius: 0.5rem;
 `;

@@ -28,10 +28,10 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Rob Campbell</HeroH1>
-        <HeroP>(Hello, friend.)</HeroP>
+        <HeroP>(Web development | Creative Technology)</HeroP>
         <HeroBtnWrapper>
           <Button
-            to="about"
+            to="project-1"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"

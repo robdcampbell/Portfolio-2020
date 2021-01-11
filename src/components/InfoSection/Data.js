@@ -1,13 +1,16 @@
+// PROJECTS' INFO KEPT HERE
+
 export const homeObjOne = {
-  id: "project-2",
+  id: "project-1",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Web Development",
-  headline: "Creative Technologist",
+  topLine: "01. Issue Tracker",
+  headline: "Issue/Project Tracker",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
+    "I constantly find myself with a list of ongoing projects to work on or issues to resolve while in production. This tracker keeps me from pulling my hair out by keeping it all one place.",
   buttonLabel: "View Project",
+  buttonLabel2: "View Source Code",
   imgStart: true,
   // img: require("../../images/svg-1.svg"),
   alt: "Project 1",
@@ -18,7 +21,7 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   //page
-  id: "project-1",
+  id: "project-2",
   // Background
   lightBg: false,
   //Text Color
@@ -26,18 +29,19 @@ export const homeObjTwo = {
   // Description text color
   lightTextDesc: true,
   //Topline - small intro text
-  topLine: "Web Development",
+  topLine: "02. robcampbell.io (this website)",
   // headline - content title
-  headline: "Creative Technologist",
+  headline: "Portfolio Site (Responsive) ",
   // description
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
+    "Using React and React Styled Componenets, I assembled this reponsive website to display way I've been tinkering at.",
   // button
   buttonLabel: "View Project",
+  buttonLabel2: "View Source Code",
   //imgStart swaps the image and text locations
   imgStart: false,
   // Image **** HAVING ISSUES WITH THE PATH
-  img: require("../../images/svg-1.svg"),
+  img: "../../images/portfolio_landing.png",
   alt: "Project 1",
   primary: true,
   dark: true,
@@ -49,11 +53,12 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Web Development",
+  topLine: "03. Project Three",
   headline: "Creative Technologist",
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
   buttonLabel: "View Project",
+  buttonLabel2: "View Source Code",
   imgStart: true,
   // img: require("../../images/svg-1.svg"),
   alt: "Project 1",
@@ -63,15 +68,16 @@ export const homeObjThree = {
 };
 
 export const homeObjFour = {
-  id: "project-3",
+  id: "project-4",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Web Development",
+  topLine: "04. Project Four",
   headline: "Creative Technologist",
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
   buttonLabel: "View Project",
+  buttonLabel2: "View Source Code",
   imgStart: false,
   img: require("../../images/svg-1.svg"),
   alt: "Project 1",

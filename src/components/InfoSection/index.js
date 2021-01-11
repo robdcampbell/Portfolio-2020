@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "../ButtonElements";
 // HAVE TO IMPORT IMAGES THIS WAY
 import Image1 from "../../images/svg-1.svg";
+import Landing from "../../images/portfolio_landing.png";
 import {
   InfoContainer,
   InfoWrapper,
@@ -27,6 +28,7 @@ const InfoSection = ({
   darkText,
   description,
   buttonLabel,
+  buttonLabel2,
   img,
   alt,
   primary,
@@ -56,12 +58,24 @@ const InfoSection = ({
                   >
                     {buttonLabel}
                   </Button>
+                  <Button
+                    to="home"
+                    smooth={true}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                    primary={primary ? 1 : 0}
+                    dark={dark ? 0 : 1}
+                    dark2={dark2 ? 0 : 1}
+                  >
+                    {buttonLabel2}
+                  </Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={Image1} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
