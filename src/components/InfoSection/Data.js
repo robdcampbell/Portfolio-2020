@@ -17,7 +17,7 @@ export const homeObjOne = {
   primary: false,
   dark: true,
   darkText: true,
-  codeUrl: "https://github.com/robdcampbell/reactPortfolio",
+  codeUrl: "https://github.com/robdcampbell",
   projectUrl: "",
 };
 
@@ -69,7 +69,7 @@ export const homeObjThree = {
   primary: false,
   dark: true,
   darkText: true,
-  codeUrl: "https://github.com/robdcampbell/reactPortfolio",
+  codeUrl: "https://github.com/robdcampbell",
   projectUrl: "",
 };
 
@@ -90,6 +90,6 @@ export const homeObjFour = {
   primary: true,
   dark: true,
   darkText: false,
-  codeUrl: "https://github.com/robdcampbell/reactPortfolio",
+  codeUrl: "https://github.com/robdcampbell/react-todo-list-firebase",
   projectUrl: "",
 };
