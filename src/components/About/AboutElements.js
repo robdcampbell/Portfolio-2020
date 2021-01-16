@@ -37,8 +37,9 @@ export const ServicesWrapper = styled.div`
   }
 `;
 // MAKE ALL CONTAINERS SAME HEIGHT, NO MATTER WHAT CONTENT
-export const ServicesCard = styled.div`
+export const AboutCard = styled.div`
   background: #fff;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

@@ -49,28 +49,28 @@ export const homeObjTwo = {
   dark: true,
   darkText: false,
   codeUrl: "https://github.com/robdcampbell/reactPortfolio",
-  projectUrl: "",
+  // projectUrl: "https://react-movielibrary-rdc.netlify.app/",
 };
 
 export const homeObjThree = {
-  id: "project-2",
+  id: "project-3",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "03. Project Three",
-  headline: "Creative Technologist",
+  topLine: "03. Movie Library",
+  headline: "Movie Library (React.js)",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ducimus praesentium et consectetur commodi cum asperiores, odio impedit cumque laudantium!",
+    "Fetching movie data from an external API, this React.js Movie Library displays movies based on your search criteria.",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
-  img: "../../images/svg-6.svg",
+  img: "../../images/movieLibraryPic.png",
   alt: "Project 1",
   primary: false,
   dark: true,
   darkText: true,
-  codeUrl: "https://github.com/robdcampbell",
-  projectUrl: "",
+  codeUrl: "https://github.com/robdcampbell/movieLibrary",
+  projectUrl: "https://react-movielibrary-rdc.netlify.app/",
 };
 
 export const homeObjFour = {

@@ -1,7 +1,5 @@
 import React from "react";
-import Icon1 from "../../images/svg-2.svg";
-import Icon2 from "../../images/svg-3.svg";
-import Icon3 from "../../images/svg-4.svg";
+
 import {
   ServicesContainer,
   ServicesH1,
@@ -12,6 +10,7 @@ import {
   ServicesP,
   Img,
   ImgWrap,
+  AboutCard,
 } from "./AboutElements";
 
 const Services = () => {
@@ -25,6 +24,16 @@ const Services = () => {
             alt="Rob eating a bagel in the woods"
           />
         </ImgWrap>
+        <div>
+          <AboutCard>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+              eius perspiciatis tempore voluptate, quis ipsam ut accusantium
+              cupiditate veritatis obcaecati eum, odio officia officiis
+              reiciendis modi mollitia doloremque, quasi nobis?
+            </p>
+          </AboutCard>
+        </div>
 
         {/* <ServicesCard>
           <ServicesIcon src={Icon1} />
