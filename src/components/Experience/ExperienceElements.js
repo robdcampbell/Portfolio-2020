@@ -21,13 +21,14 @@ export const ServicesContainer = styled.div`
 export const ExperienceCard = styled.div`
   background: #fff;
   width: 80%;
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
   max-height: 340px;
-  padding: 30px;
+  padding: 3rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 `;
@@ -59,7 +60,7 @@ export const AboutCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
-  max-height: 340px;
+  //max-height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;

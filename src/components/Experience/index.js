@@ -26,6 +26,14 @@ const Services = () => {
         consequatur eos fugit consectetur. Perspiciatis fugiat omnis quidem
         quibusdam! Et sequi mollitia quas velit debitis aliquam.
       </ExperienceCard>
+      <ExperienceCard>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+        perferendis provident sequi minus? Minus numquam repellendus non earum
+        deserunt quia voluptates, ipsa illum facere omnis tenetur perspiciatis
+        voluptatibus iste quam temporibus aliquid, necessitatibus excepturi
+        consequatur eos fugit consectetur. Perspiciatis fugiat omnis quidem
+        quibusdam! Et sequi mollitia quas velit debitis aliquam.
+      </ExperienceCard>
     </ServicesContainer>
   );
 };
