@@ -18,7 +18,7 @@ const Error = () => {
 export default Error;
 
 const ErrorWrapper = styled.main`
-  padding-top: 50%;
+  padding-top: 3rem;
   text-align: center;
   background-color: #c0c0c0;
   color: #fff;
