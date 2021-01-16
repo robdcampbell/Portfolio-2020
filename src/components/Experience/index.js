@@ -11,29 +11,21 @@ import {
   Img,
   ImgWrap,
   AboutCard,
-} from "./AboutElements";
+  ExperienceCard,
+} from "./ExperienceElements";
 
 const Services = () => {
   return (
     <ServicesContainer id="about">
-      <ServicesH1>( A little about me. )</ServicesH1>
-      <ServicesWrapper>
-        <ImgWrap>
-          <Img
-            src="../../images/me_woods.png"
-            alt="Rob eating a bagel in the woods"
-          />
-        </ImgWrap>
-        <div>
-          <AboutCard>
-            <h3>Education</h3>
-            <p>
-              <strong>MFA: School of Visual Arts.</strong>New York, NY
-            </p>
-            <p>BFA: Northern Michigan University. Marquette, MI</p>
-          </AboutCard>
-        </div>
-      </ServicesWrapper>
+      <ServicesH1>Experience</ServicesH1>
+      <ExperienceCard>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+        perferendis provident sequi minus? Minus numquam repellendus non earum
+        deserunt quia voluptates, ipsa illum facere omnis tenetur perspiciatis
+        voluptatibus iste quam temporibus aliquid, necessitatibus excepturi
+        consequatur eos fugit consectetur. Perspiciatis fugiat omnis quidem
+        quibusdam! Et sequi mollitia quas velit debitis aliquam.
+      </ExperienceCard>
     </ServicesContainer>
   );
 };

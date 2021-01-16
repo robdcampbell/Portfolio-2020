@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "01. Issue Tracker",
+  topLine: "01. Issue Tracker (coming soon...)",
   headline: "Issue/Project Tracker",
   description:
     "I constantly find myself with a list of ongoing projects to work on or issues to resolve while in production. This tracker keeps me from pulling my hair out by keeping it all one place.",

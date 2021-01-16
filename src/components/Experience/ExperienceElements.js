@@ -17,6 +17,20 @@ export const ServicesContainer = styled.div`
     height: 1500px;
   }
 `;
+
+export const ExperienceCard = styled.div`
+  background: #fff;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  max-height: 340px;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+`;
 // IF YOU WANT LESS COLUMNS, CHANGE HERE (Grid-template-columns)
 export const ServicesWrapper = styled.div`
   max-width: 1000px;
@@ -37,7 +51,6 @@ export const ServicesWrapper = styled.div`
   }
 `;
 // MAKE ALL CONTAINERS SAME HEIGHT, NO MATTER WHAT CONTENT
-
 export const AboutCard = styled.div`
   background: #fff;
   width: 100%;
