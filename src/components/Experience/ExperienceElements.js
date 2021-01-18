@@ -8,7 +8,7 @@ export const ServicesContainer = styled.div`
   align-items: center;
   //background: #010606;
   background-color: #0c0c0c;
-  border-bottom: #fff solid 1px;
+  border-bottom: #757272 solid 1px;
 
   @media screen and (max-width: 900px) {
     height: 1500px;
