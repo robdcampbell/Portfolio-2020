@@ -60,15 +60,15 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 5rem;
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
-  @media screen and (max-width: 480px) {
+  /* @media screen and (max-width: 480px) {
     font-size: 32px;
-  }
+  } */
 `;
 
 export const HeroP = styled.p`
