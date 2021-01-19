@@ -1,13 +1,11 @@
 import React from "react";
 
 import {
-  ServicesContainer,
-  ServicesH1,
-  ServicesH2,
-  ServicesWrapper,
-  ServicesCard,
-  ServicesIcon,
-  ServicesP,
+  AboutContainer,
+  AboutH1,
+  AboutH2,
+  AboutWrapper,
+  AboutP,
   Img,
   ImgWrap,
   AboutCard,
@@ -15,9 +13,9 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="about-me">
-      <ServicesH1> About me. </ServicesH1>
-      <ServicesWrapper>
+    <AboutContainer id="about-me">
+      <AboutH1> About me. </AboutH1>
+      <AboutWrapper>
         <ImgWrap>
           <Img
             src="../../images/me_woods.png"
@@ -27,14 +25,22 @@ const Services = () => {
         <div>
           <AboutCard>
             <h3>Education</h3>
-            <p>
+            <AboutP>
               <strong>MFA: School of Visual Arts.</strong>New York, NY
-            </p>
-            <p>BFA: Northern Michigan University. Marquette, MI</p>
+            </AboutP>
+            <AboutP>
+              <strong> BFA: Northern Michigan University.</strong> Marquette, MI
+            </AboutP>
+            <AboutP>MI -> NY.</AboutP>
+            <AboutP>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+              inventore dolorum quibusdam, repellat nemo qui aperiam harum
+              beatae voluptas officia.
+            </AboutP>
           </AboutCard>
         </div>
-      </ServicesWrapper>
-    </ServicesContainer>
+      </AboutWrapper>
+    </AboutContainer>
   );
 };
 
