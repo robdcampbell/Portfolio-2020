@@ -1,47 +1,83 @@
 import styled from "styled-components";
 
+export const ExperienceWrapper = styled.div`
+  background-color: #0c0c0c;
+  border-bottom: #757272 solid 1px;
+`;
+
+export const ExperienceHeader = styled.div`
+  background-color: #0c0c0c;
+  padding-top: 3rem;
+  margin-left: 5%;
+  @media screen and (max-width: 780px) {
+    margin-left: 10%;
+    margin-bottom: 3rem;
+  }
+`;
+
+export const ExperiencesH1 = styled.h1`
+  /* padding-top: 3rem;
+  margin-left: 5%; */
+  background-color: #0c0c0c;
+  font-size: 3em;
+  color: #fff;
+
+  /* border-bottom: #757272 solid 1px; */
+
+  /* @media screen and (max-width: 780px) {
+    font-size: 3rem;
+    margin-left: 10%;
+    margin-bottom: 3rem; */
+  }
+`;
+export const LineBreak = styled.div`
+  background-color: #0c0c0c;
+  border-bottom: #757272 solid 1px;
+  width: 70%;
+  margin-left: 7.5%;
+`;
+
 // SECTION CONTAINER
 export const ExperiencesSection = styled.section`
-  height: 700px;
+  height: 750px;
+  width: 75%;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   background-color: #0c0c0c;
-  border-bottom: #757272 solid 1px;
-  position: relative;
+
+  @media screen and (max-width: 1200px) {
+    /* background-color: red; */
+    margin: 0 auto;
+    height: 900px;
+    width: 80%;
+  }
+`;
+export const ExperiencesContainer = styled.div`
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
 
   @media screen and (max-width: 900px) {
     height: 1000px;
+    /* display: block; */
   }
 `;
-export const ExperiencesContainer = styled.div``;
 
 export const ExperienceCard = styled.div`
   width: 85%;
   color: #fff;
-  margin-top: 0.5rem;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; */
-  /* border-bottom: #292929 solid 2px; */
-  /* border-radius: 10px; */
-  max-height: 340px;
-  padding: 3rem;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-left: 2rem;
+  /* max-height: 340px; */
+  /* border: red solid 2px; */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 `;
 
-export const ExperiencesH1 = styled.h1`
-  font-size: 3em;
-  color: #fff;
-  margin-bottom: 2rem;
-
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }
-`;
 export const ExperiencesH2 = styled.h2`
   font-size: 2rem;
   margin-bottom: 10px;
@@ -56,8 +92,8 @@ export const ExperiencesH3 = styled.h3`
 export const ExperiencesH4 = styled.h3`
   /* font-size: 2rem; */
   color: #c0c0c0;
-  margin-top: 1rem;
-  border-top: #757272 solid 1px;
+  margin-bottom: 3rem;
+  /* border-top: #757272 solid 1px; */
   padding: 0.5rem 0;
   cursor: pointer;
 `;
