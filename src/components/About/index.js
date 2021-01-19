@@ -11,7 +11,7 @@ import {
   AboutCard,
 } from "./AboutElements";
 
-const Services = () => {
+const About = () => {
   return (
     <AboutContainer id="about-me">
       <AboutH1> About me. </AboutH1>
@@ -26,12 +26,16 @@ const Services = () => {
           <AboutCard>
             <h3>Education</h3>
             <AboutP>
-              <strong>MFA: School of Visual Arts.</strong>New York, NY
+              <strong>MFA: School of Visual Arts</strong> _ New York, NY
             </AboutP>
             <AboutP>
-              <strong> BFA: Northern Michigan University.</strong> Marquette, MI
+              <strong> BFA: Northern Michigan University</strong> _ Marquette,
+              MI
             </AboutP>
-            <AboutP>MI -> NY.</AboutP>
+            <AboutP> Michigan / New York</AboutP>
+            <AboutP>
+              I've been coding for the last 5 years (largely self-taught)
+            </AboutP>
             <AboutP>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
               inventore dolorum quibusdam, repellat nemo qui aperiam harum
@@ -44,7 +48,7 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default About;
 
 {
   /* <ServicesCard>

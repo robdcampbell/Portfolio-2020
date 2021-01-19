@@ -1,66 +1,68 @@
 import React from "react";
 
 import {
-  ExperienceWrapper,
-  ExperiencesSection,
-  ExperiencesContainer,
-  ExperienceHeader,
-  ExperiencesH1,
-  ExperiencesH2,
-  ExperiencesH3,
-  ExperiencesH4,
-  ExperiencesP,
-  ExperienceCard,
-  LineBreak,
+  AboutContainer,
+  AboutH1,
+  AboutH2,
+  AboutH3,
+  AboutWrapper,
+  AboutP,
+  Img,
+  ImgWrap,
+  AboutCard,
 } from "./ExperienceElements";
 
 const Experience = () => {
   return (
-    <ExperienceWrapper>
-      <ExperienceHeader>
-        <ExperiencesH1>Experience</ExperiencesH1>
-        <ExperiencesH4>click here for my resumé.</ExperiencesH4>
-        {/* <LineBreak /> */}
-      </ExperienceHeader>
-      <ExperiencesSection id="about">
-        <ExperiencesContainer>
-          <ExperienceCard>
-            {/* <ExperiencesH1>Experience</ExperiencesH1> */}
-            <ExperiencesH2>Systems Administor</ExperiencesH2>
-            <ExperiencesH3>2019-Present.</ExperiencesH3>
-            <ExperiencesP>
-              I'm currently a Systems Administrator in the MFA Computer Arts
-              program at the School of Visual Arts (SVA), working as part of a
-              small team to oversee and maintain lab machines and servers, as
-              well as department's licensing of lab software.
-            </ExperiencesP>
-            <ExperiencesP>
-              I provide daily systems support for Faculty, Students, and Staff
-              primarily with Mac (but also across Windows/Linux-based systems),
-              to ensure everything is running properly.
-            </ExperiencesP>
-          </ExperienceCard>
+    <AboutContainer id="about">
+      <AboutH1> Experience</AboutH1>
+      <AboutWrapper>
+        <AboutCard>
+          <AboutH2>Systems Administrator</AboutH2>
+          <AboutP>
+            <strong>2019-Present.</strong>
+            SVA New York, NY
+          </AboutP>
 
-          <ExperienceCard>
-            <ExperiencesH2>Exhibitions Coordinator</ExperiencesH2>
-            <ExperiencesH3>2015-2019</ExperiencesH3>
-            <ExperiencesP>
-              As part of an exhibition staff at the School of Visual Art's 3
-              Manhattan galleries, I assisted in the coordination and
-              installation of a wide breadth of exhibitions.
-            </ExperiencesP>
-            <ExperiencesP>
-              Our team had the opportunity to bring incredible thesis work of
-              students from various undergraduate and graduate programs, as well
-              as exhibit prominent practicing artists, curators, and designers
-              such as Michael Bierut, Lousie Fili, Christoph Niemann, and many
-              others.
-            </ExperiencesP>
-            {/* <ExperiencesH4>click here for my resumé.</ExperiencesH4> */}
-          </ExperienceCard>
-        </ExperiencesContainer>
-      </ExperiencesSection>
-    </ExperienceWrapper>
+          <AboutP>
+            I'm currently a Systems Administrator in the MFA Computer Arts
+            program at the School of Visual Arts (SVA), working as part of a
+            small team to oversee and maintain lab machines and servers, as well
+            as the department's licensing of lab software.
+          </AboutP>
+          <AboutP>
+            I've been coding for the last 5 years (largely self-taught)
+          </AboutP>
+          <AboutP>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+            inventore dolorum quibusdam, repellat nemo qui aperiam harum beatae
+            voluptas officia.
+          </AboutP>
+        </AboutCard>
+        <div>
+          <AboutCard>
+            <AboutH2>Exhibitions Coordinator</AboutH2>
+            <AboutP>
+              <strong>MFA: School of Visual Arts</strong> _ New York, NY
+            </AboutP>
+            <AboutP>
+              <strong> BFA: Northern Michigan University</strong> _ Marquette,
+              MI
+            </AboutP>
+            <AboutP> Michigan / New York</AboutP>
+            <AboutP>
+              I've been coding for the last 5 years (largely self-taught)
+            </AboutP>
+            <AboutP>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+              inventore dolorum quibusdam, repellat nemo qui aperiam harum
+              beatae voluptas officia.
+            </AboutP>
+          </AboutCard>
+        </div>
+        <AboutH3>resumé.</AboutH3>
+      </AboutWrapper>
+    </AboutContainer>
   );
 };
 
