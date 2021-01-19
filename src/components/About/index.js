@@ -15,7 +15,7 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer id="about">
+    <ServicesContainer id="about-me">
       <ServicesH1> About me. </ServicesH1>
       <ServicesWrapper>
         <ImgWrap>

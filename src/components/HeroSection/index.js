@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Video from "../../videos/video.mp4";
+import Image from "../../images/blueGrid.png";
 import { Button } from "../ButtonElements";
 import { animateScroll as scroll } from "react-scroll";
 import {
   HeroContainer,
   HeroBg,
-  VideoBg,
+  ImgBg,
   HeroContent,
   HeroH1,
   HeroP,
@@ -23,12 +23,10 @@ const HeroSection = () => {
 
   return (
     <HeroContainer>
-      <HeroBg>
-        {/* <VideoBg autoplay loop muted src={Video} type="video/mp4"></VideoBg> */}
-      </HeroBg>
+      <HeroBg>{/* <ImgBg src={Image} alt="gridBackground"></ImgBg> */}</HeroBg>
       <HeroContent>
         <HeroH1>Rob Campbell</HeroH1>
-        <HeroP>(Web development | Creative Technology)</HeroP>
+        <HeroP>Web development & Creative Technology</HeroP>
         <HeroBtnWrapper>
           <Button
             to="project-1"

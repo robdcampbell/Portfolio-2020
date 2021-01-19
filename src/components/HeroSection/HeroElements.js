@@ -22,7 +22,7 @@ export const HeroContainer = styled.div`
     bottom: 0;
     background: linear-gradient(
         180deg,
-        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 9) 0%,
         rgba(0, 0, 0, 10) 100%
       ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%), transparent 100%;
@@ -40,7 +40,7 @@ export const HeroBg = styled.div`
   overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
+export const ImgBg = styled.img`
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
