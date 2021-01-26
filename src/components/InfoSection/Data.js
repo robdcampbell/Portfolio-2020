@@ -8,7 +8,7 @@ export const homeObjOne = {
   topLine: "01. Issue Tracker (coming soon...)",
   headline: "Issue/Project Tracker",
   description:
-    "I constantly find myself with a list of ongoing projects to work on or issues to resolve while in production. This tracker keeps me from pulling my hair out by keeping it all one place.",
+    "Built using React.js, Semantic UI and the frontend and Firebase for database, auth, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in production. This tracker keeps me from pulling my hair out by keeping it all one place.",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
@@ -17,8 +17,8 @@ export const homeObjOne = {
   primary: false,
   dark: true,
   darkText: true,
-  codeUrl: "https://github.com/robdcampbell",
-  projectUrl: "",
+  codeUrl: "https://github.com/robdcampbell/projectsDashboard-Auth",
+  projectUrl: "https://projectdashboard-production.web.app/login",
 };
 
 export const homeObjTwo = {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "../../images/blueGrid.png";
+import Image from "../../images/sao_paulo.jpg";
 import { Button } from "../ButtonElements";
 import { animateScroll as scroll } from "react-scroll";
 import {
