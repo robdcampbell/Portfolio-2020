@@ -49,9 +49,7 @@ const Footer = () => {
                 (Back to the top)
               </SocialLogo>
 
-              <WebsiteRights>
-                rob campbell. {new Date().getFullYear()}
-              </WebsiteRights>
+              <FooterExternalLink>rdeancampbell@gmail.com</FooterExternalLink>
               <SocialIcons>
                 <SocialIconLink
                   href="https://github.com/robdcampbell"
@@ -87,6 +85,11 @@ const Footer = () => {
 export default Footer;
 
 /*
+
+  <WebsiteRights>
+            rob campbell. {new Date().getFullYear()}
+  </WebsiteRights>
+
 <FooterLinksContainer>
             <FooterLinksWrapper>
               <FooterLinkItems>

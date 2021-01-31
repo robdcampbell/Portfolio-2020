@@ -34,12 +34,12 @@ const About = () => {
             </AboutP>
             <AboutP> Michigan / New York</AboutP>
             <AboutP>
-              I've been coding for the last 5 years (largely self-taught)
+              I'm a life-learner, and for the most part self-taught coder. Aside
+              from technology, I love learning about languages and art.
             </AboutP>
             <AboutP>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
-              inventore dolorum quibusdam, repellat nemo qui aperiam harum
-              beatae voluptas officia.
+              I spend most of my days running, play Legos with my daughter, and
+              biking through the streets of Brooklyn/NYC.
             </AboutP>
           </AboutCard>
         </div>

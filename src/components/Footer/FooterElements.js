@@ -70,9 +70,10 @@ export const FooterExternalLink = styled.a`
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
+  cursor: pointer;
 
   &:hover {
-    color: #01bf71;
+    color: #c0c0c0;
     transition: 0.3s ease-out;
   }
 `;
