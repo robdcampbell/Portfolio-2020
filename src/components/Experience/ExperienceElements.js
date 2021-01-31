@@ -36,7 +36,7 @@ export const AboutWrapper = styled.div`
   } */
   @media screen and (max-width: 800px) {
     grid-template-columns: 1fr;
-    grid-gap: 3rem;
+    grid-gap: 5rem;
     padding: 0 20px;
   }
 `;
@@ -92,9 +92,15 @@ export const AboutH3 = styled.h3`
   cursor: pointer;
   /* border-top: #c0c0c0 solid 1px; */
 `;
+export const AboutH4 = styled.h4`
+  color: #fff;
+
+  /* border-top: #c0c0c0 solid 1px; */
+`;
 
 export const AboutP = styled.p`
   margin-top: 0.5rem;
+  color: #c0c0c0;
   font-size: 1rem;
   line-height: 1.5;
 `;
@@ -124,4 +130,11 @@ export const Img = styled.img`
   margin: 0;
   padding-right: 0;
   border-radius: 0.5rem;
+`;
+
+export const A = styled.a`
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
 `;

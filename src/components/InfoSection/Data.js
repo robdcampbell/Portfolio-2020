@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "01. Issue Tracker (coming soon...)",
+  topLine: "01. Issue Tracker (MoonSurf)",
   headline: "Issue/Project Tracker",
   description:
     "Built using React.js, Semantic UI and the frontend and Firebase for database, auth, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in production. This tracker keeps me from pulling my hair out by keeping it all one place.",
@@ -78,10 +78,10 @@ export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "04. Project Four",
-  headline: "The ole' todo list",
+  topLine: "04. Daily NASA exploration",
+  headline: "NASA Explorer (coming soon...)",
   description:
-    "Ohhhhhhhh you already know what's going on. My todo sandbox where I could/continue to experiment with React, Firebase, and Firestore",
+    "Using external data accessible through NASA's public API's, this app is used to exhibit daily information provided from NASA.",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: false,

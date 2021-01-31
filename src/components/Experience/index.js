@@ -5,11 +5,13 @@ import {
   AboutH1,
   AboutH2,
   AboutH3,
+  AboutH4,
   AboutWrapper,
   AboutP,
   Img,
   ImgWrap,
   AboutCard,
+  A,
 } from "./ExperienceElements";
 
 const Experience = () => {
@@ -19,6 +21,9 @@ const Experience = () => {
       <AboutWrapper>
         <AboutCard>
           <AboutH2>Systems Administrator</AboutH2>
+          <AboutH4>
+            <strong> Currently:</strong>
+          </AboutH4>
           <AboutP>
             <strong>2019-Present.</strong>
             SVA New York, NY
@@ -31,32 +36,48 @@ const Experience = () => {
             as the department's licensing of lab software.
           </AboutP>
           <AboutP>
-            I've been coding for the last 5 years (largely self-taught)
+            The role has meant using a wide-range of languages and technologies,
+            routinely creating bash scripts, using MDM software (JAMF pro), and
+            managing lab computers and peripheral equipment.
           </AboutP>
           <AboutP>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
-            inventore dolorum quibusdam, repellat nemo qui aperiam harum beatae
-            voluptas officia.
+            See more of my professional experience on:
+            <strong>
+              <A
+                href="https://www.linkedin.com/in/rob-campbell-a6354a75/"
+                target="_blank"
+              >
+                LinkedIn.
+              </A>
+            </strong>
           </AboutP>
         </AboutCard>
         <div>
           <AboutCard>
-            <AboutH2>Exhibitions Coordinator</AboutH2>
+            <AboutH2>Languages / Technologies:</AboutH2>
             <AboutP>
-              <strong>MFA: School of Visual Arts</strong> _ New York, NY
+              <strong>Javascript</strong>
             </AboutP>
             <AboutP>
-              <strong> BFA: Northern Michigan University</strong> _ Marquette,
-              MI
-            </AboutP>
-            <AboutP> Michigan / New York</AboutP>
-            <AboutP>
-              I've been coding for the last 5 years (largely self-taught)
+              <strong> React.js</strong>
             </AboutP>
             <AboutP>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
-              inventore dolorum quibusdam, repellat nemo qui aperiam harum
-              beatae voluptas officia.
+              <strong> Redux</strong>
+            </AboutP>
+            <AboutP>
+              <strong> React Styled Components</strong>
+            </AboutP>
+            <AboutP>
+              <strong> Node.js</strong>
+            </AboutP>
+            <AboutP>
+              <strong> Firebase</strong>
+            </AboutP>
+            <AboutP>
+              <strong> MongoDB</strong>
+            </AboutP>
+            <AboutP>
+              <strong> PostgreSQL</strong>
             </AboutP>
           </AboutCard>
         </div>
