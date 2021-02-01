@@ -38,8 +38,8 @@ const About = () => {
               from technology, I love learning about languages and art.
             </AboutP>
             <AboutP>
-              I spend most of my days running, play Legos with my daughter, and
-              biking through the streets of Brooklyn/NYC.
+              I spend most of my days running, playing Legos with my daughter,
+              and biking through the streets of Brooklyn/NYC.
             </AboutP>
           </AboutCard>
         </div>
