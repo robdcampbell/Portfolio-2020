@@ -18,7 +18,7 @@ const About = () => {
       <AboutWrapper>
         <ImgWrap>
           <Img
-            src="../../images/me_woods.png"
+            src="../../images/profilePic.jpg"
             alt="Rob eating a bagel in the woods"
           />
         </ImgWrap>
