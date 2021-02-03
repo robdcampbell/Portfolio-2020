@@ -49,7 +49,9 @@ const Footer = () => {
                 (Back to the top)
               </SocialLogo>
 
-              <FooterExternalLink>rdeancampbell@gmail.com</FooterExternalLink>
+              <FooterExternalLink href="mailto:rdeancampbell@gmail.com">
+                rdeancampbell@gmail.com
+              </FooterExternalLink>
               <SocialIcons>
                 <SocialIconLink
                   href="https://github.com/robdcampbell"
@@ -83,44 +85,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-/*
-
-  <WebsiteRights>
-            rob campbell. {new Date().getFullYear()}
-  </WebsiteRights>
-
-<FooterLinksContainer>
-            <FooterLinksWrapper>
-              <FooterLinkItems>
-                <FooterLinkTitle>Github</FooterLinkTitle>
-                <SocialIconLink
-                  href="https://github.com/robdcampbell"
-                  target="_blank"
-                  aria-label="Github"
-                >
-                  <FaGithub />
-                </SocialIconLink>
-              </FooterLinkItems>
-
-              <FooterLinkItems>
-                <FooterLinkTitle>LinkedIn</FooterLinkTitle>
-
-                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                  <FaFacebook />
-                </SocialIconLink>
-              </FooterLinkItems>
-            </FooterLinksWrapper>
-
-            <FooterLinksWrapper>
-              <FooterLinkItems>
-                <FooterLinkTitle>Instagram</FooterLinkTitle>
-                <FooterLink to="./signin">How it works</FooterLink>
-              </FooterLinkItems>
-              <FooterLinkItems>
-                <FooterLinkTitle>One More</FooterLinkTitle>
-                <FooterLink to="./signin">How it works</FooterLink>
-              </FooterLinkItems>
-            </FooterLinksWrapper>
-          </FooterLinksContainer>
-*/

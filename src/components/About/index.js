@@ -49,25 +49,3 @@ const About = () => {
 };
 
 export default About;
-
-{
-  /* <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
-          <ServicesP>
-            WebDev. System Administration. All sorts of creative technologies.
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
-          <ServicesP>Run Run Run RUNRUNRUNRUNRUNRUN. beer.</ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Michigan / New York</ServicesH2>
-          <ServicesP>
-            Came from the woods to make a home in the city ok ok
-          </ServicesP>
-        </ServicesCard> */
-}

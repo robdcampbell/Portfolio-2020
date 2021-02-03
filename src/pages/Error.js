@@ -6,7 +6,7 @@ const Error = () => {
   return (
     <>
       <ErrorWrapper>
-        <h1>Oh Shit, we've 404'd</h1>
+        <h1>Oh crap, we've 404'd</h1>
         <h1>
           let's go: <ReturnHome to="/">home.</ReturnHome>
         </h1>

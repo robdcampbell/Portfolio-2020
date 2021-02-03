@@ -7,6 +7,7 @@ import {
   homeObjTwo,
   homeObjThree,
   homeObjFour,
+  homeObjFive,
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
 import Experience from "../components/Experience";
@@ -29,6 +30,7 @@ const Home = () => {
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
+      <InfoSection {...homeObjFive} />
       <Experience />
       <Services />
       <Footer />

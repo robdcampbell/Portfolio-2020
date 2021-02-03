@@ -87,8 +87,9 @@ export const AboutH2 = styled.h2`
 export const AboutH3 = styled.h3`
   font-size: 1.5rem;
   margin: 1.5rem 0;
+  margin-top: 1.5rem;
   margin-left: 1rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.5rem 0;
   cursor: pointer;
   /* border-top: #c0c0c0 solid 1px; */
 `;
