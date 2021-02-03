@@ -6,4 +6,4 @@ View site : [robcampbelldev.com](https://robcampbelldev.com/)
 
 ![image of landing page.](/src/images/portfolio_landing.png "Image of the landing page of: robcampbelldev.com .")
 
-This React.js website showcases the web development projects i've been working on.
+This React.js website showcases the projects i've been working on, a little bit of my history.
