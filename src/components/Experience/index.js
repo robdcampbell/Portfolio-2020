@@ -83,10 +83,10 @@ const Experience = () => {
         </div>
         <A
           href="../images/Campbell_Rob_resume_2021.pdf"
-          style={{ marginTop: "5rem", fontSize: "2rem" }}
+          style={{ marginTop: "5rem", fontSize: "1.5rem" }}
           target="_blank"
         >
-          resumé.
+          Click here for my Resumé.
         </A>
       </AboutWrapper>
     </AboutContainer>
