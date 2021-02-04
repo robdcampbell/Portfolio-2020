@@ -8,7 +8,7 @@ export const homeObjOne = {
   topLine: "01. Issue Tracker (MoonSurf)",
   headline: "Issue/Project Tracker",
   description:
-    "Built using React.js, Semantic UI and the frontend and Firebase for database, auth, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in production. This tracker keeps me from pulling my hair out by keeping it all one place.",
+    "Built using React.js and Semantic UI on the frontend and Firebase for databasing, authentication, storage, and hosting. I constantly find myself with a list of ongoing projects to work on or issues to resolve while in production - this app helps to stay on track.",
   buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
   imgStart: true,
@@ -36,7 +36,7 @@ export const homeObjTwo = {
   headline: "Portfolio Site (Responsive) ",
   // description
   description:
-    "Using React and React Styled Componenets, I assembled this reponsive website to display way I've been tinkering at.",
+    "Using React and React Styled Components, I assembled this reponsive website to display way I've been tinkering at.",
   // button
   //buttonLabel: "View Project",
   buttonLabel2: "View Source Code",
